@@ -5,6 +5,8 @@ Requires Nginx 0.7.6+ (To make use of included nginx.conf file for fancy urls)
 Requires MySQL 5.3+ (To make use of the MySQL wrapper and to use the login system)
 Requires Memcached 1.4.5+ (To make use of the Memcache Wrapper)
 
+Makes use of NBBC v1.4.5 - http://nbbc.sourceforge.net/ go there for problems and documentation concerning BBCode and the parser
+used in this Framework
 
 This is just simply a lightweight functional framework to speed up development and creation of
 PHP5 web apps. It was originally designed and coded for a Twitter Clone which will eventually be

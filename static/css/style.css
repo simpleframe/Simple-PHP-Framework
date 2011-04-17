@@ -1,0 +1,221 @@
+/*
+|=======================================================|
+|  Simple-PHP5-Framework                                |
+|  Requires == MySQL 5.3+                               |
+|  Requires == PHP 5.3.0+                               |
+|  Requires == Memcached 1.4.5+                         |
+|  https://github.com/simpleframe/Simple-PHP-Framework  |
+|  (c) 2010 by NoName                                   |
+|  Free to use and modifiy and share                    |
+|  Not for Sale                                         |
+|=======================================================|
+*/
+
+
+* {
+	padding: 0em;
+	margin: 0em;
+}
+
+html {
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	background:#FFF;
+	color: #000;
+	font-family: tahoma, helvetica, sans-serif;
+	font-size: 9pt;
+	
+}
+
+/* Common elements */
+
+.hidden {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	border: none;
+	color: #444;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #555;
+}
+
+.noborder {
+	border: none;
+}
+
+ul.nobullet {
+	list-style-type: none;
+}
+
+.curtain {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #111 50% 0 no-repeat fixed;
+	z-index:1001;
+	-moz-opacity: 0.9;
+	opacity:.90;
+	filter: alpha(opacity=90);
+}
+
+.lightbox {
+	position: fixed;
+	text-align: center;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	padding: 0px;
+	z-index:1002;
+	overflow: auto;
+	margin: auto auto auto auto;
+}
+
+.lightbox_ajax {
+	position: fixed;
+	text-align: center;
+	background-color:white;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	padding: 0px;
+	z-index:1002;
+	overflow: auto;
+	margin: auto auto auto auto;
+}
+
+.lightbox_frame {
+	position: fixed;
+	text-align: center;
+	background-color:white;
+	top: 15%;
+	left: 15%;
+	width: 70%;
+	height: 70%;
+	padding: 0px;
+	z-index:1002;
+	margin: auto auto auto auto;
+}
+
+
+
+.lightbox img { 
+	max-width: 100%;
+	max-height: 100%;
+	background-color: transparent;
+	z-index: -1;
+}
+
+/* End */
+
+/* Header */
+.header {
+	padding: 5px 5px 5px 5px;
+	width: 80%;
+	border: 1px solid black;
+	border-bottom: none;
+	margin: auto;
+}
+
+.logo {
+	padding: 1px 1px 1px 1px;
+	width: 15%;
+	border: none;
+	float: left;
+}
+
+.user_info {
+	padding: 1px 1px 1px 1px;
+	width: 75%;
+	border: none;
+	text-align: right;
+	float: right;
+}
+
+.toolbox_quick {
+	padding: 1px 1px 1px 1px;
+	width: 40%;
+	border: 1px solid black;
+	text-align: center;
+	margin: auto;
+}
+
+.menu {
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	border: none;
+	text-align: center;
+	clear: both;
+}
+
+/* End Header */
+
+/* Every Page */
+
+.content {
+	padding: 5px 5px 5px 5px;
+	width: 80%;
+	border: 1px solid black;
+	margin: auto;
+}
+
+.debug_info_table {
+	padding: 5px 5px 5px 5px;
+	width: 80%;
+	border: 1px solid black;
+	margin: auto;
+}
+
+.disclaimer_box {
+	padding: 1px 1px 1px 1px;
+	text-align: center;
+	width: 100%;
+	border: none;
+	clear: both;
+	margin: auto;
+}
+
+.main{
+	padding: 5px 5px 5px 5px;
+	width: 72.5%;
+	float: left;
+	border: 1px solid black;
+}
+
+.sidebar {
+	padding: 5px 5px 5px 5px;
+	width: 22.5%;
+	height: 100%;
+	float: right;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.sidebar_heading {
+	padding: 1px 1px 1px 1px;
+	width: 90%;
+	border: 1px solid black;
+	border-bottom: none;
+	text-align: left;
+	margin: auto;
+}
+
+.sidebar_box {
+	padding: 1px 1px 1px 1px;
+	width: 90%;
+	border: 1px solid black;
+	text-align: left;
+	margin: auto;
+}
+/* End Every Page */
