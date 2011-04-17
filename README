@@ -1,0 +1,19 @@
+Simple PHP5 Framework
+ 
+Requires PHP 5.3.0+
+Requires Nginx 0.7.6+ (To make use of included nginx.conf file for fancy urls)
+Requires MySQL 5.3+ (To make use of the MySQL wrapper and to use the login system)
+Requires Memcached 1.4.5+ (To make use of the Memcache Wrapper)
+
+
+This is just simply a lightweight functional framework to speed up development and creation of
+PHP5 web apps. It was originally designed and coded for a Twitter Clone which will eventually be
+open sourced on the same github account you found this framework on.
+
+Documentation is included in the /docs folder and code is commented throughout.
+
+This also includes an extremely lightweight but very usable javascript library this is also documented
+under /docs/javascript.
+
+The javascript library will eventually be available seperately under https://github.com/simpleframe/Simple-JavaScript-Library
+once it is documented and fully built.
